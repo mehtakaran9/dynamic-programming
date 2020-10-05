@@ -6,7 +6,6 @@ public class SequencesWithProductLessThanK {
     }
 
     private int numberOfSequences(int[] arr, int n) {
-        int totalSequences = 0;
         int[][] dp = new int[arr.length][n+1];
 
         for(int j = 1;j <= n; j++) {

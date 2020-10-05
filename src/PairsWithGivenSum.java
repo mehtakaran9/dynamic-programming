@@ -17,6 +17,6 @@ public class PairsWithGivenSum {
             }
         }
         return totalPairs;
-	};
+	}
     
 }

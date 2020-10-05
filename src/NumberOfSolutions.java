@@ -6,7 +6,7 @@ public class NumberOfSolutions {
     }
 
     private int findNumberOfSolutions(int[] coeff, int rhs) {
-        int dp[] = new int[rhs + 1];
+        int[] dp = new int[rhs + 1];
         dp[0] = 1;
         for (int i = 0; i < coeff.length; i++) {
             for (int j = coeff[i]; j <= rhs; j++) {
