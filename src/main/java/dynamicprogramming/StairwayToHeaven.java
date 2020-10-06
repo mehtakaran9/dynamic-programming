@@ -1,3 +1,5 @@
+package dynamicprogramming;
+
 public class StairwayToHeaven {
 
     private int stairwayToHeaven(int n) {

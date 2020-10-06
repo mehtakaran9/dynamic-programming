@@ -1,3 +1,5 @@
+package dynamicprogramming;
+
 public class BurglarProblem {
     public static void main(String[] args) {
         int[] houses = {3, 8, 10, 4, 1, 7, 2};

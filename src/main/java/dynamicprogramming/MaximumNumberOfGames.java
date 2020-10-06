@@ -1,3 +1,5 @@
+package dynamicprogramming;
+
 public class MaximumNumberOfGames {
     public static void main(String[] args) {
         System.out.println(new MaximumNumberOfGames().calcuateMaxGames(6));

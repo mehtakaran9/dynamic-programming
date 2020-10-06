@@ -1,3 +1,5 @@
+package dynamicprogramming;
+
 public class CatalanNumber {
     //number sequence problem to calculate nth catalan number 
     public static void main(String[] args) {
