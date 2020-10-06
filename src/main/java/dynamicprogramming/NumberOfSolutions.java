@@ -1,3 +1,5 @@
+package dynamicprogramming;
+
 public class NumberOfSolutions {
     public static void main(String[] args) {
         int[] coeff = {2,2,5};
