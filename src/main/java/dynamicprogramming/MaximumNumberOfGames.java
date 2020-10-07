@@ -2,10 +2,10 @@ package dynamicprogramming;
 
 public class MaximumNumberOfGames {
   public static void main(String[] args) {
-    System.out.println(new MaximumNumberOfGames().calcuateMaxGames(6));
+    System.out.println(new MaximumNumberOfGames().calculateMaxGames(6));
   }
 
-  private int calcuateMaxGames(int n) {
+  private int calculateMaxGames(int n) {
     float[] arr = new float[n + 1];
     arr[0] = 0;
     arr[1] = 0;
