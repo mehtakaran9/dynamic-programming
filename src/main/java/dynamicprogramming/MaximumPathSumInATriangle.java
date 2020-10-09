@@ -2,7 +2,7 @@ package dynamicprogramming;
 
 public class MaximumPathSumInATriangle {
   public static void main(String[] args) {
-    int tri[][] = {{1, 0, 0}, {4, 8, 0}, {1, 5, 3}};
+    int[][] tri = {{1, 0, 0}, {4, 8, 0}, {1, 5, 3}};
     System.out.println(new MaximumPathSumInATriangle().calculateMaxPathSum(tri, 2));
   }
 
